@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body {
+    background-color: black;
+}
+
+.nabla-h1 {
+    font-size: larger;
+    text-align: center;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
