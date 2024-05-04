@@ -1,23 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
-body {
+
+body {    
     background-color: black;
 }
 
-.nabla-h1 {
-    font-size: larger;
-    text-align: center;
-    font-family: "Nabla", system-ui;
+.honk-font {
+    font-family: "Honk", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
+    font-size: 7em;
+    text-align: center;
     font-style: normal;
     font-variation-settings:
-      "EDPT" 100,
-      "EHLT" 12;
+      "MORF" 15,
+      "SHLN" 50;
   }
 
+
   .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
   }
+  
+  .content:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+  }
+
+  a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  
